@@ -1,0 +1,19 @@
+.investorsTableWrapper {
+  & > table {
+    width: 100%;
+  }
+}
+
+.th {
+  position: relative;
+  padding-right: 27px;
+  cursor: pointer;
+
+  & > .icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 11px;
+    pointer-events: none;
+  }
+}
